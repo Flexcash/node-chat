@@ -1,6 +1,7 @@
 {
   "name": "chat",
   "version": "0.2.1",
+  "subdomain": "chat"
   "description": "A simple, scalable web-based chat server.",
   "keywords": [
     "chat"
