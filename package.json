@@ -1,10 +1,32 @@
 {
+<<<<<<< HEAD
   "name": "miguelchat",
   "version": "0.2.1",
   "subdomain": "miguel",
   "private": true,
   "scripts": {
     "start": "node demo/chat.js"
+=======
+  "name": "kchat",
+  "subdomain": "kchat",
+  "version": "0.2.1",
+  "description": "A simple, scalable web-based chat server.",
+  "keywords": [
+    "chat"
+  ],
+    "engines": {
+    "node": ">=0.4"
+  },
+      "scripts": {
+    "start": "node demo/chat.js"
+  },
+  "homepage": "https://github.com/scottgonzalez/node-chat",
+  "bugs": "https://github.com/scottgonzalez/node-chat/issues",
+  "author": {
+    "name": "Scott González",
+    "email": "scott.gonzalez@gmail.com",
+    "url": "http://scottgonzalez.com"
+>>>>>>> 90b086a245c9ef42597cc05fc1f985e254f81135
   },
   "dependencies": {
     "express": "3.3.4",
