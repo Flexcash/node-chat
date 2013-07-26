@@ -1,10 +1,10 @@
 {
-  "name": "chat",
+  "name": "miguelchat",
   "version": "0.2.1",
-  "subdomain": "chatsnode",
+  "subdomain": "miguel",
   "private": true,
   "scripts": {
-    "start": "node lib/server.js"
+    "start": "node demo/chat.js"
   },
   "dependencies": {
     "express": "3.3.4",
