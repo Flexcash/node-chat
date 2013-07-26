@@ -2,20 +2,13 @@
   "name": "chat",
   "version": "0.2.1",
   "subdomain": "chatsnode",
-  "description": "A simple, scalable web-based chat server.",
-  "keywords": [
-    "chat"
-  ],
-  "homepage": "https://github.com/scottgonzalez/node-chat",
-  "bugs": "https://github.com/scottgonzalez/node-chat/issues",
-  "author": {
-    "name": "Scott González",
-    "email": "scott.gonzalez@gmail.com",
-    "url": "http://scottgonzalez.com"
+  "private": true,
+  "scripts": {
+    "start": "node lib/server.js"
   },
-  "main": "lib/server.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/scottgonzalez/node-chat.git"
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "*"
   }
 }
+
